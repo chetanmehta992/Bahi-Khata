@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendarView"
+        android:text="Add / del Member"
+        android:backgroundTint="#D50000"
+        android:id="@+id/add_member"
+        android:layout_marginHorizontal="20dp"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_member"
+        android:text="Edit Member Detail"
+        android:backgroundTint="#D50000"
+        android:id="@+id/edit"
+        android:layout_marginHorizontal="20dp"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit"
+        android:text="show today entrys"
+        android:backgroundTint="#D50000"
+        android:id="@+id/today"
+        android:layout_marginHorizontal="20dp"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/today"
+        android:text="show date entry"
+        android:backgroundTint="#D50000"
+        android:id="@+id/thatday"
+        android:layout_marginHorizontal="20dp"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
